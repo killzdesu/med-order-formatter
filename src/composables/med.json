@@ -1,0 +1,202 @@
+[
+  {
+    "fullname": "Paracetamol",
+    "tradename": "para",
+    "abbr": "para, tp500, pcm",
+    "prep": "tab 500",
+    "defaultdose": "1 tab po prn q 6 hr"
+  },
+  {
+    "fullname": "Folic",
+    "tradename": "folic",
+    "prep": "tab 5",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Ferrous fumarate",
+    "abbr": "FF",
+    "prep": "tab 200",
+    "defaultdose": "1x3 po pc"
+  },
+  {
+    "fullname": "Vit B.complex",
+    "tradename": "Bco",
+    "abbr": "bco",
+    "prep": "-",
+    "defaultdose": "1x3 po pc"
+  },
+  {
+    "fullname": "Omeprazole",
+    "tradename": "Losec",
+    "abbr": "losec",
+    "prep": "cap 20",
+    "defaultdose": "1x1 po ac"
+  },
+  {
+    "fullname": "Lorazepam",
+    "tradename": "Ativan",
+    "abbr": "ativan",
+    "prep": "tab 0.5",
+    "defaultdose": "1 tab po prn hs"
+  },
+  {
+    "fullname": "Senokot",
+    "prep": "tab 7.5",
+    "defaultdose": "2 tab po prn hs"
+  },
+  {
+    "fullname": "Lactulose",
+    "prep": "-",
+    "defaultdose": "30 ml po prn hs"
+  },
+  {
+    "fullname": "Domperidone",
+    "tradename": "Molax",
+    "abbr": "dom",
+    "prep": "-",
+    "defaultdose": "1x3 po ac"
+  },
+  {
+    "fullname": "Cetirizine",
+    "tradename": "Cettec",
+    "prep": "tab 10",
+    "defaultdose": "1x1 po hs"
+  },
+  {
+    "fullname": "Hydralazine",
+    "abbr": "hydra",
+    "prep": "tab 25",
+    "defaultdose": "1x4 po pc"
+  },
+  {
+    "fullname": "Amlodipine",
+    "abbr": "amlo",
+    "prep": "tab 10",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Manidipine",
+    "tradename": "Madiplot",
+    "abbr": "mani",
+    "prep": "tab 20",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Enalapril",
+    "tradename": "Enalil",
+    "abbr": "enp",
+    "prep": "tab 5",
+    "defaultdose": "1x2 po pc"
+  },
+  {
+    "fullname": "Metformin",
+    "abbr": "mfm",
+    "prep": "tab 500"
+  },
+  {
+    "fullname": "Glipizide",
+    "abbr": "gpz",
+    "prep": "tab 5"
+  },
+  {
+    "fullname": "Levofloxacin",
+    "abbr": "levoflox, lfx",
+    "prep": "tab 500",
+    "defaultdose": "1.5x1 po pc"
+  },
+  {
+    "fullname": "Atorvastatin",
+    "abbr": "atorvas",
+    "prep": "tab 40",
+    "defaultdose": "1x1 po hs"
+  },
+  {
+    "fullname": "Simvastatin",
+    "abbr": "simvas",
+    "prep": "tab 20",
+    "defaultdose": "1x1 po hs"
+  },
+  {
+    "fullname": "ASA",
+    "tradename": "Aspirin",
+    "prep": "tab 81",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Clopidogrel",
+    "tradename": "Plavix",
+    "prep": "tab 75",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Vit.D",
+    "abbr": "vitd",
+    "prep": "cap 20,000",
+    "defaultdose": "1 cap po weekly"
+  },
+  {
+    "fullname": "Cefixime",
+    "tradename": "Sixime",
+    "prep": "tab 100",
+    "defaultdose": "2x2 po pc"
+  },
+  {
+    "fullname": "Caltab",
+    "abbr": "CaCO3",
+    "prep": "tab 1,000",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Prednisolone",
+    "abbr": "pred",
+    "prep": "tab 5",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Gabapentin",
+    "abbr": "gaba",
+    "prep": "tab 300",
+    "defaultdose": "1x1 po hs"
+  },
+  {
+    "fullname": "Bactrim",
+    "abbr": "tmp-smx",
+    "prep": "tab (80/400)",
+    "defaultdose": "2x1 po pc"
+  },
+  {
+    "fullname": "Losartan",
+    "tradename": " ",
+    "prep": "tab 50",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Propranolol",
+    "prep": "tab 20",
+    "defaultdose": "1x3 po pc"
+  },
+  {
+    "fullname": "Carvedilol",
+    "tradename": "Caraten",
+    "prep": "tab 6.25",
+    "defaultdose": "1x2 po pc"
+  },
+  {
+    "fullname": "Ciprofloxacin",
+    "abbr": "cipro",
+    "prep": "tab 500",
+    "defaultdose": "1x2 po pc"
+  },
+  {
+    "fullname": "Furosemide",
+    "tradename": "Lasix",
+    "prep": "tab 40",
+    "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Spironolactone",
+    "tradename": "Aldactone",
+    "prep": "tab 25",
+    "defaultdose": "1x1 po pc"
+  }
+]
