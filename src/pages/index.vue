@@ -1,16 +1,22 @@
 <script setup lang="ts">
 import { transform } from '../composables/transform.js'
-const generic = ref(false)
+const generic = ref(true)
+const dash = ref(true)
 const input = ref('')
 const output = computed(()=>{
-  return transform(input.value, {generic})
+  return transform(input.value, {generic, dash})
 })
 </script>
 
 <template>
   <div class="pb-10">
     <h2 text="xl" font="bold" p-3>Med Formatter</h2>
-    <input type="checkbox" v-model="generic"> Generic name
+    <span>
+      <input type="checkbox" v-model="generic"> Generic name
+    </span>
+    <span>
+      <input type="checkbox" v-model="dash"> Dash
+    </span>
   </div>
   <div class="mx-auto w-3/4 grid grid-cols-8 grid-gap-2">
     <div class="col-span-4">

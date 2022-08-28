@@ -161,7 +161,7 @@
   {
     "fullname": "Bactrim",
     "abbr": "tmp-smx",
-    "prep": "tab (80/400)",
+    "prep": "tab 80/400",
     "defaultdose": "2x1 po pc"
   },
   {
@@ -198,5 +198,68 @@
     "tradename": "Aldactone",
     "prep": "tab 25",
     "defaultdose": "1x1 po pc"
+  },
+  {
+    "fullname": "Sodamint",
+    "abbr": "sdm",
+    "prep": "tab 300",
+    "defaultdose": "1x3 po pc"
+  },
+  {
+    "fullname": "Salt tab",
+    "tradename": "salttab",
+    "abbr": "NaCl, salt",
+    "prep": "-",
+    "defaultdose": "1x3 po pc"
+  },
+  {
+    "fullname": "Amiodarone",
+    "tradename": "Cordarone",
+    "prep": "tab 400"
+  },
+  {
+    "fullname": "Augmentin",
+    "tradename": "Augmentin",
+    "abbr": "amk",
+    "prep": "cap 1,000",
+    "defaultdose": "1x2 po pc"
+  },
+  {
+    "fullname": "MST",
+    "prep": "tab 10"
+  },
+  {
+    "fullname": "MOIR",
+    "prep": "tab 10"
+  },
+  {
+    "fullname": "Amoxicillin",
+    "abbr": "amoxi, amoxy",
+    "prep": "cap 500",
+    "defaultdose": "1x2 po pc"
+  },
+  {
+    "fullname": "MTV",
+    "abbr": "multivitamin",
+    "prep": "-",
+    "defaultdose": "1x3 po pc"
+  },
+  {
+    "fullname": "Metocloplamide",
+    "tradename": "Plasil",
+    "prep": "tab 10",
+    "defaultdose": "1 tab po prn q 8 hr"
+  },
+  {
+    "fullname": "Ondansetron",
+    "tradename": "Onsia",
+    "prep": "tab 8",
+    "defaultdose": "1 tab po prn q 8 hr"
+  },
+  {
+    "fullname": "Fluimucil",
+    "tradename": "NAC",
+    "prep": "cap 200",
+    "defaultdose": "1x3 po pc"
   }
 ]

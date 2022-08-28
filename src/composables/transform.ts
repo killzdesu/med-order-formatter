@@ -32,7 +32,7 @@ const pasteOrder = (o: Order): string => {
 }
 
 const getValues = (o: Order, val: Array<string>): Order => {
-  let d = val.filter(e => {
+  let d = val.slice(1).filter(e => {
     return (e.includes('tab') ||
       e.includes('cap') ||
       e.includes('ml') ||
@@ -67,18 +67,15 @@ const getValues = (o: Order, val: Array<string>): Order => {
 export const transform = (input: string, opt: any = {}) => {
   const rows = input.split('\n')
   let results = rows.map( row => {
-    let el = row.split(' ')
-    let hasConc = false
+    let el = row.trim().split(' ')
     // Split dose from name
     if (el[0].includes('(')) {
       let tmp = el[0].split('(')
       el = [tmp[0], tmp[1].slice(0, -1), ...el.slice(1)]
-      hasConc = true
     }
     // Remove () from dose
     if (el[1]?.includes('(')) {
       el[1] = el[1].slice(1, -1)
-      hasConc = true
     }
     // Find med name
     let med: any = findMed(el[0].toLowerCase())
@@ -92,12 +89,11 @@ export const transform = (input: string, opt: any = {}) => {
       med = el[0]
     } else {
       // Found medication
-      name = (opt.generic ? med.fullname : el[0])
+      name = (opt.generic.value ? med.fullname : el[0])
       prep = med.prep == '-' ? null : med.prep.split(' ')[0]
       conc = med.prep == '-' ? null : med.prep.split(' ')[1]
-      dose = med.defaultdose.split('po')[0]
-      route = 'po'+med.defaultdose.split('po')[1]
-
+      dose = med.defaultdose.split('po')[0].trim()
+      route = 'po '+med.defaultdose.split('po')[1].trim()
       let order: Order = {
         med: name,
         prep,
@@ -124,5 +120,8 @@ export const transform = (input: string, opt: any = {}) => {
     // return el.join(' ')
     return pasteOrder(order)
   })
+  if (opt.dash.value) {
+    results = results.map(e => '- '+e)
+  }
   return results.join('\n')
 }
